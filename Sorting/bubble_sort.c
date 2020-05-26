@@ -10,7 +10,7 @@ void bubble_sort(int arr[],int length){
     //每次都需要把一个最大的元素移动到后面，一共只需要比较n-1个元素（还剩最后一个元素是不用比较的，因为它肯定是最小的）
     for (int i = 0;i < length - 1;i++)
         //需要比较的次数，只需要在未排序好的元素中进行比较（未排序元素的个数为：length-1-i）
-        for (int j = 0;j < length - 1 - i;j++){
+        for (int j = 0;j < length - 1 - i;j++){ //这个length - 1 - i 就充当着分界线的作用
             if (arr[j] > arr[j + 1]){
                 int temp = arr[j];
                 arr[j] = arr[j+1];
