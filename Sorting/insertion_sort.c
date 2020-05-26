@@ -22,12 +22,12 @@ void insertion_sort(int arr[],int size){
     }
 }
 
-int main(){
-    int arr[] = {1,4,3,54,23,5,34,23,3,4,42};
-    insertion_sort(arr,11);
-    for (int i = 0; i < 11; ++i) {
-        printf("%d ",arr[i]);
-    }
-    return 0;
-}
+//int main(){
+//    int arr[] = {1,4,3,54,23,5,34,23,3,4,42};
+//    insertion_sort(arr,11);
+//    for (int i = 0; i < 11; ++i) {
+//        printf("%d ",arr[i]);
+//    }
+//    return 0;
+//}
 
