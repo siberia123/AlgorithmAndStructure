@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * 思想：每经过一次排序，都会挑选一个最大的元素。
+ * 思想：每经过一次排序，都会在未排序好的元素中挑选一个最大的元素，放置在已排序好元素的前端。
  * 划分：未排序好|已排序好
  * 步骤：每次都在未排序好的元素中，挑选一个最大的元素，并将其放到已排序好的元素中。
  */
@@ -19,11 +19,11 @@ void bubble_sort(int arr[],int length){
         }
 
 }
-int main() {
-    int arr[] = {3,2,5,56,7,3,6,7,23,36};
-    bubble_sort(arr,10);
-    for (int i = 0; i < 10; ++i) {
-        printf("%d ",arr[i]);
-    }
-    return 0;
-}
+//int main() {
+//    int arr[] = {3,2,5,56,7,3,6,7,23,36};
+//    bubble_sort(arr,10);
+//    for (int i = 0; i < 10; ++i) {
+//        printf("%d ",arr[i]);
+//    }
+//    return 0;
+//}
